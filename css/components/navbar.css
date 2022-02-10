@@ -1,0 +1,23 @@
+.search-btn > input{
+    border-radius: 8px;
+    border-color: var(--sec-light-purple);
+    outline: none;
+    padding: 8px 1rem 8px 4rem;
+    
+}
+.search-btn{
+    position: relative;
+}
+.test{
+    position: absolute;
+}
+.navbar-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-icons>span{
+    padding: 3px;
+    cursor: pointer;
+}

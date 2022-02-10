@@ -1,0 +1,16 @@
+.menu-primary{
+    width: 100vw;
+    /* background-color: var(--sec-light-purple); */
+    background-color: #c0bebe;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.menu-pri-items >li{
+    color: var(--lightmode-bg-color);
+    text-transform: capitalize;
+    font-size: 18px;
+
+}
