@@ -1,0 +1,7 @@
+.aside-sec-heading {
+    padding: 0 20px;
+}
+.aside-sec-heading>a {
+    text-decoration: underline;
+    color: var(--sec-dark-purple);
+}

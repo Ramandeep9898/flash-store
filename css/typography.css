@@ -5,3 +5,8 @@
 .main-second-half>img{
     width: 100%;
 }
+.product-page-main-heading{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

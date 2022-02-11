@@ -1,3 +1,15 @@
 .mgT-20{
     margin-top: 20px;
 }
+.mgT-40{
+    margin-top: 40px;
+}
+.color{
+ color: var(--sec-dark-purple);
+}
+.dis-f{
+    display: flex;
+}
+.f-space-btw{
+    justify-content: space-between;
+}

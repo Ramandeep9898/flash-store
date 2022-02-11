@@ -63,25 +63,34 @@
 }
 .product-page-header{
     grid-area: header;
+  /* background-color: maroon; */
+
     width: 100vw;
+    height: 100px;
     grid-column: 1/4;
     grid-row: 1/2;
 
 }
 .product-page-aside{
+  background-color: var(--lightmode-bg-color);
   grid-area: aside;
-  width: 40vw;
+  width: 20vw;
   grid-column: 1/2;
   grid-row: 2/4;
 
 }
 .product-page-main{
+    
+  background-color: #F7F7F7;
   grid-area: main;
-  width: 60vw;
+  width: 80vw;
   grid-column: 2/4;
   grid-row: 2/4;
+  padding: 0 50px ;
 }
 .product-page-footer{
+    
+  /* background-color: red; */
   grid-area: footer;
   width: 100vw;
   grid-column: 1/4;
