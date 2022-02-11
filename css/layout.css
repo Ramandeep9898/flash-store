@@ -1,20 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
-
-
 .home-page{
     display: grid;
     width: 100%;
-    height: 100vh;
 
   grid-template-areas:
     "header header"
     "main-first-half main-second-half"
-    "main-first-half main-second-half"
-    "main-first-half main-second-half"
+    "categories categories"
     "footer footer";
 }
 .header{
@@ -37,6 +33,12 @@
     grid-row: 2/4;
     grid-area: main-second-half;
     
+}
+.categories{
+    width: 100vw;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    grid-area: categories;
 }
 .footer{
     height: 100%;
