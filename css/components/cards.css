@@ -15,3 +15,9 @@
 .test>span{
     color: var(--sec-dark-purple);  
 }
+/* price-container  */
+.price-container{
+    max-width: 450px;
+    padding: 20px;
+    background-color: var(--lightmode-bg-color);
+}
