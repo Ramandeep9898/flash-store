@@ -4,12 +4,24 @@
 .mgT-40{
     margin-top: 40px;
 }
+.mgT-8{
+    margin-top: 8px;
+}
+.mgT-4{
+    margin-top: 4px;
+}
+.mgT-16{
+    margin-top: 16px;
+}
 .color{
- color: var(--sec-dark-purple);
+    color: var(--sec-dark-purple);
 }
 .dis-f{
     display: flex;
 }
 .f-space-btw{
     justify-content: space-between;
+}
+.width100{
+    width: 100%;
 }
