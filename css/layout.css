@@ -139,3 +139,39 @@
   grid-area: footer;
 
 }
+/* wishlist page */
+.wishlist-page{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+  "header header header"
+  "main main main"
+  "main main main"
+  "main main main"
+  "footer footer footer";
+
+}
+.wishlist-header{
+  width: 100vw;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  grid-area: header;
+
+}
+.wishlist-main{
+  width: 100vw;
+  grid-column: 1/4;
+  grid-row: 2/4;
+  grid-area: main;
+  padding: 0 50px 100px 50px;
+
+}
+.wishlist-footer{
+  width: 100vw;
+  height: 100px;
+  grid-column: 1/4;
+  grid-row: 4/5;
+  grid-area: footer;
+
+}
