@@ -175,3 +175,40 @@
   grid-area: footer;
 
 }
+/* login page  */
+.login-page{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+  "header header header"
+  "main main main"
+  "main main main"
+  "main main main"
+  "footer footer footer";
+
+
+}
+.login-header{
+  width: 100vw;
+  height: 100px;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  grid-area: header;
+
+}
+.login-main{
+  width: 100vw;
+  grid-column: 1/4;
+  grid-row: 2/4;
+  grid-area: main;
+  background-color: #F7F7F7;
+  
+}
+.login-footer{
+  width: 100vw;
+  grid-column: 1/4;
+  grid-row: 4/5;
+  grid-area: footer;
+
+}
