@@ -6,10 +6,14 @@
     max-width: 100%;
 }
 .categories-card{
+    border-radius: 8px;
     display: flex;
     flex-direction: column; 
     align-items: center;
     cursor: pointer;
+}
+.categories-card>img{
+    border-radius: 8px!important;
 }
 
 .test>span{
